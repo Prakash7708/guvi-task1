@@ -1,0 +1,14 @@
+ Difference between static and dynamic language;
+
+A dynamic language (Lisp, Perl, Python, Ruby) is designed to optimize programmer efficiency, so you can implement functionality with less code. A static language (C, C++, etc) is designed to optimize hardware efficiency, so that the code you write executes as quickly as possible.
+  NOTE :JavaScript is a multi-paradigm, dynamic language with types and operators, standard built-in objects, and methods.
+
+scripting language; Ex:javasript
+
+ Scripting languages help in automating various software apps, web pages in a browser, shell usage of an OS (operating system), etc. The scripting languages like VBScript, Perl, Javascript, etc., do not require compilation, and they have less access to any computer’s native abilities. It is because these rather run on an original programming language’s subset. An example here could be that the Javascript won’t have the ability to access your file system.
+Generally, a scripting language is interpreted. It doesn’t primarily focus on building applications- but it can render behavior to an application that already exists. It basically helps in writing codes for targeting a software system. Thus, it can also automate a given operation on any software system. So basically, scripts act as a set of instructions that target any software system.
+
+programming languages; Ex: java , python
+
+One needs to compile the programming languages to machine code so as to run them on the hardware of an underlying OS (operating system). A user needs to deploy a certain Integrated Development Environment (IDE) for using programming languages. A programmer needs to provide an instruction set for the computers for achieving certain goals. One can also implement certain algorithms by writing the programs.
+Out of all the programming languages present in the market, specific documentation dominates a majority of them. All the other languages comprise dominant implementation (treated as a reference). An example here is that the ISO standard associates with the C programming language. On the other hand, languages like Perl belong to the latter category.
