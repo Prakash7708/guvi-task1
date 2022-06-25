@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFuntion(){
+            var tbl = document.getElementById("myData");
+            var row = tbl.insertRow();
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("fname").value;
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("lname").value;
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("adrs").value;
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("pcode").value;
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("gen").value;
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("mySelec");
+
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("state").value;
+            var cel1=row.insertCell();
+            cel1.innerHTML= document.getElementById("cty").value;
+        }
+    function getValue(){
+           var v = document.getElementById("mySelect");
+           for(var i=0;i<v.options.length;i++){
+            if(v.options[i].selected ==true){
+
+                
+                var cel1=row.insertCell();
+             cel1.innerHTML=v.options[i].selected;
+            }
+           }}
+           
+        
+    </script>
+</head>
+<body>
+<script src="script.js"></script>
+<form name="gg" required >
+    <input type="text" id="fname" placeholder="Firstname" required><br>
+    <input type="text" id="lname" placeholder="Lastname" required><br>
+    <input type="text" id="adrs" placeholder="Address" required><br>
+    <input type="number" id="pcode"  placeholder="Pincode" required><br>
+    <input type="number" id="gen" placeholder="Gender" required><br>
+    
+    <select  multiple="multiple" id="mySelect"  required>
+        <option value="Biriyani">Biriyani</option>
+        <option value="fish">fish</option>
+        <option value="vegbiriyani">vegbiriyani</option>
+        <option value="parata">parata</option>       
+        <option value="eggrice">eggrice</option>
+        </select> 
+    <input type="button"  onclick="getValue()" value="select more"> <br>
+
+     <input type="text" id="state" placeholder="State" required><br>
+    <input type="text" id="cty" placeholder="Country" required><br> <br>
+    <input type="submit" id="" value="Add to table" onclick="myFuntion();return false;"><br><br>
+    <input type="reset" >
+</form>
+ <table border="1" cellspacing="0px" cellpadding="10px" id="myData"><br> <br>
+    <tr>
+        <td>Firstname</td>
+        <td>Lastname</td>
+        <td>Address</td>
+        <td>Pincode</td>
+        <td>Gender</td>
+        <td>Choice of food</td>
+        <td>State</td>
+        <td>Country</td>
+
+    </tr>
+</table> 
+<script src="script.js"></script>
+<script>
+    function multipleFunc() {
+    var e =document.getElementById("mySelect").multiple=true;
+    var s = e.value
+    return s
+ }
+</script>
+</body>
+</html>
