@@ -1,0 +1,76 @@
+{
+    "users":[
+       {"name":"person1", "age":23,"batch":2, "BendingTasks":{"Aug":"22-08-2020","Sep":"12-09-2022","Oct":"23-10-2022"}},
+       {"name":"person2", "age":24,"batch":2, "BendingTasks":{"Aug":"12-08-2020","Sep":"30-09-2022","Oct":"14-10-2022"}},
+       {"name":"person3", "age":23,"batch":2, "BendingTasks":{"Aug":"22-08-2020","Sep":"10-09-2022","Oct":"24-10-2022"}},
+       {"name":"person4", "age":22,"batch":2, "BendingTasks":{"Aug":"30-08-2020","Sep":"19-09-2022","Oct":"30-10-2022"}},
+       {"name":"person5", "age":23,"batch":2, "BendingTasks":{"Aug":"22-08-2020","Sep":"12-09-2022","Oct":"23-10-2022"}},
+       {"name":"person6", "age":24,"batch":2, "BendingTasks":{"Aug":"12-08-2020","Sep":"30-09-2022","Oct":"14-10-2022"}},
+       {"name":"person7", "age":23,"batch":2, "BendingTasks":{"Aug":"22-08-2020","Sep":"10-09-2022","Oct":"24-10-2022"}},
+       {"name":"person8", "age":22,"batch":2, "BendingTasks":{"Aug":"30-08-2020","Sep":"19-09-2022","Oct":"30-10-2022"}},
+       {"name":"person9", "age":23,"batch":2, "BendingTasks":{"Aug":"22-08-2020","Sep":"12-09-2022","Oct":"23-10-2022"}},
+       {"name":"person10", "age":24,"batch":2, "BendingTasks":{"Aug":"12-08-2020","Sep":"30-09-2022","Oct":"14-10-2022"}},
+       {"name":"person11", "age":23,"batch":2, "BendingTasks":{"Aug":"22-08-2020","Sep":"10-09-2022","Oct":"24-10-2022"}},
+       {"name":"person12", "age":22,"batch":2, "BendingTasks":{"Aug":"30-08-2020","Sep":"19-09-2022","Oct":"30-10-2022"}}
+    ],
+    "codeKata-solvedpbms":[{
+        "user1":2,
+        "user2":3,
+        "user3":4,
+        "user4":2,
+        "user5":3,
+        "user6":4,
+        "user7":2,
+        "user8":3,
+        "user9":4,
+        "user10":2,
+        "user11":3,
+        "user12":4
+    }],
+    "attendance":[
+        {"users":"person1","Absentdates":{"Aug":"22-08-2022","Sep":"22-09-2022","Oct":"23-10-2022"},"attendance":"88%"},
+        {"users":"person2","Absentdates":{"Aug":"24-08-2022","Sep":"31-09-2022","Oct":"15-10-2022"},"attendance":"78%"},
+        {"users":"person3","Absentdates":{"Aug":"03-08-2022","Sep":"23-09-2022","Oct":"31-10-2022"},"attendance":"88%"},
+        {"users":"person4","Absentdates":{"Aug":"01-08-2022","Sep":"21-09-2022","Oct":"29-10-2022"},"attendance":"100%"},
+        {"users":"person5","Absentdates":{"Aug":"22-08-2022","Sep":"22-09-2022","Oct":"23-10-2022"},"attendance":"88%"},
+        {"users":"person6","Absentdates":{"Aug":"24-08-2022","Sep":"31-09-2022","Oct":"15-10-2022"},"attendance":"98%"},
+        {"users":"person7","Absentdates":{"Aug":"03-08-2022","Sep":"23-09-2022","Oct":"31-10-2022"},"attendance":"88%"},
+        {"users":"person8","Absentdates":{"Aug":"01-08-2022","Sep":"21-09-2022","Oct":"29-10-2022"},"attendance":"88%"},
+        {"users":"person9","Absentdates":{"Aug":"22-08-2022","Sep":"22-09-2022","Oct":"23-10-2022"},"attendance":"100%"},
+        {"users":"person10","Absentdates":{"Aug":"24-08-2022","Sep":"31-09-2022","Oct":"15-10-2022"},"attendance":"88%"},
+        {"users":"person11","Absentdates":{"Aug":"03-08-2022","Sep":"23-09-2022","Oct":"31-10-2022"},"attendance":"98%"},
+        {"users":"person12","Absentdates":{"Aug":"01-08-2022","Sep":"21-09-2022","Oct":"29-10-2022"},"attendance":"88%"}
+    ],
+    "Topics":{
+        "Aug":["HTML","CSS","BOOTSTRAP"],
+        "Sep":["react"],
+        "Oct":["Mysql","Mongodb","NodeJs"]},
+    "Tasks":{
+            "Aug":["htmltask1","htmltask2","csstask3","csstask4","htmltask5","csstask6"],
+            "Sep":["reacttask1","reacttask2","reacttask3","reacttask4","reacttask5","reacttask6"],
+            "Oct":["pricetable","crudoperation","inputdata on Mysql","sqlBolt","Mongodbjson","NodeJs filecreate",
+                   "NodeJs connect mongodb"]},
+     "CompanyDrives":[
+                    {"name":"tcs","date":"23-10-2020","Placement":["user1","user3"]},
+                    {"name":"Wibro","date":"15-10-2020","Placement":["user2","user7"]},
+                    {"name":"ABC","date":"23-10-2020","Placement":["user5","user3"]},
+                    {"name":"Git","date":"14-10-2020","Placement":["user2","user4"]},
+                    {"name":"Monqrs","date":"09-10-2020","Placement":["user6","user9"]}
+    ],
+    "mentors":[
+        {"name":"mentor1","age":48,"students":50},
+        {"name":"mentor2","age":34,"students":22},
+        {"name":"mentor3","age":44,"students":14},
+        {"name":"mentor4","age":44,"students":50},
+        {"name":"mentor5","age":54,"students":22},
+        {"name":"mentor6","age":44,"students":14},
+        {"name":"mentor7","age":44,"students":50},
+        {"name":"mentor8","age":64,"students":22},
+        {"name":"mentor9","age":44,"students":14},
+        {"name":"mentor10","age":64,"students":50},
+        {"name":"mentor11","age":46,"students":22},
+        {"name":"mentor12","age":47,"students":14}
+    ]
+    
+
+}
